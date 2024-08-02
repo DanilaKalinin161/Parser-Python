@@ -3,7 +3,7 @@ import scrapy
 
 class SpiderTest1Spider(scrapy.Spider):
     name = "spider_test_1"
-    allowed_domains = ["timeout.com"]
+    allowed_domains = ["www.kinoafisha.info"]
     start_urls = ["https://www.kinoafisha.info/rating/movies/"]
 
     def parse(self, response):
